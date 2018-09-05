@@ -1,0 +1,66 @@
+.top {
+	margin-left: 250px;
+}
+
+ul {
+	font-size: 15px;
+	padding: 0px;
+}
+
+li {
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.first {
+	margin-left: 0px;
+}
+
+li a {
+	color: #5f92c6;
+	text-decoration: none;
+}
+
+h1 {
+	font-weight: lighter;
+	font-family: Georgia;
+	font-size: 50px;
+	margin: 0px 0 20px 0;
+}
+
+.edificio-uno {
+	margin-left: 100px;
+}
+
+.edificio-uno p {
+	color: #20201f;
+}
+
+.data {
+	color: #797979;
+}
+
+.mid-banner {
+	margin-left: 100px;
+}
+
+.text {
+	font-size: 20px;
+	line-height: 30px;
+	width: 650px;
+}
+
+.text p a {
+	color: #5f92c6;
+}
+
+p.capital::first-letter {
+	font: 700 78px Arial;
+	float: left;
+	margin-right: 12px;
+}
+
+.edificio2 p {
+	color: #20201f;
+}
