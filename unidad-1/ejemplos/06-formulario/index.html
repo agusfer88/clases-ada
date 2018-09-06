@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title>Formulario</title>
+</head>
+
+<body>
+	<form action="https://natiguida.now.sh/" method="GET">
+		<div class="data">
+			<p>Nombre</p>
+			<input type="text" name="nombre" placeholder="Nati">
+			<p>Apellido</p>
+			<input type="text" name="apellido" placeholder="Guida">
+			<p>E-mail</p>
+			<input type="text" name="email" placeholder="natiguida@gmail.com">
+		</div>
+		<div id="genero">
+			<p>Genero</p>
+			<div class="font">
+				<label><input type="radio" name="genero" value="F">Femenino</label>
+				<label><input type="radio" name="genero" value="M">Maculino</label>
+			</div>
+		</div>
+		<div class="font">
+			<p>Nacionalidad</p>
+			<select class="option" name="nacio">
+				<option value="" selected disabled hidden>Seleccione una opcion</option>
+				<option value="arg">Argentina</option>
+				<option value="colombia">Colombia</option>
+				<option value="chile">Chile</option>
+				<option value="peru">Peru</option>
+			</select>
+		</div>
+		<div class="font">
+			<p>Temas que le interesan</p>
+			<div class="form-dos">
+				<div class="first">
+					<label><input type="checkbox" name="intereses" value="infraestructura">Infraestructura</label>
+				</div>
+				<div>
+					<label><input type="checkbox" name="intereses" value="programacion-web">Programación web</label>
+				</div>
+				<div>
+					<label><input type="checkbox" name="intereses" value="programacion-mobile">Programación mobile</label>
+				</div>
+				<div>
+					<label><input type="radio" name="terminos" value="terminos" checked>Acepta los términos y condiciones</label>
+				</div>
+			</div>
+			<div>
+				<p>Comentarios</p>
+				<textarea cols="50" rows="10" placeholder="Escriba comentarios aqui..."></textarea>
+			</div>
+			<div class="button">
+				<button>Cancelar</button>
+				<input class="button-margin" type="submit" value="Enviar">
+			</div>
+	</form>
+</body>
+
+</html>
