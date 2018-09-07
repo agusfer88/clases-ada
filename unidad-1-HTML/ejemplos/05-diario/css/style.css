@@ -33,7 +33,7 @@ h1 {
 	margin-left: 100px;
 }
 
-.edificio-uno p {
+.edificio-uno figcaption {
 	color: #20201f;
 }
 
@@ -61,6 +61,6 @@ p.capital::first-letter {
 	margin-right: 12px;
 }
 
-.edificio2 p {
+.edificio-dos figcaption {
 	color: #20201f;
 }
