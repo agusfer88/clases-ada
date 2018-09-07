@@ -1,0 +1,33 @@
+body {
+  font-family: 'Courier New', Courier, monospace
+}
+
+p {
+  color: hotpink;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+	background-color: hotpink;
+}
+
+.azul {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+}
+
+div {
+	text-align: center;
+}
+
+span {
+	margin: auto
+}

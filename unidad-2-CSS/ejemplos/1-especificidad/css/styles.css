@@ -1,0 +1,15 @@
+p {
+    color: hotpink;
+}
+
+.saludo p {
+    color: blue;
+}
+
+.saludo .naranja {
+	color: gold;
+}
+
+.despedida p {
+	color: green;
+}
