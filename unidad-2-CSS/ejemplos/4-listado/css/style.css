@@ -1,0 +1,45 @@
+* {
+  font-family: Helvetica;
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
+
+header img {
+  width: 100%;
+}
+
+.aside-container, .list-container {
+  display: inline-block;
+}
+
+.aside-container{
+  width: 500px;
+  float: left;
+  text-align: center;
+}
+
+div label {
+  display: block;
+}
+
+.list-container {
+  width: 1000px;
+  text-align: center;
+}
+
+.list-container div {
+  display: inline-block;
+  margin: 10px;
+}
+
+.list-container div img{
+  width: 300px;
+}
+
+.list-container div p{
+  background-color: pink;
+  margin: 0px;
+}
