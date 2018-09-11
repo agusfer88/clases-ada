@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+  font-size: 20px;
+}
+
+.fixed {
+  background-color: plum;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 3;
+}
+
+.first-p {
+  padding-top: 50px
+}
+
+.absolute {
+  background-color: hotpink;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 300px;
+  right: 0px;
+}
+
+.absolute-2{
+  background-color: rgb(105, 255, 255);
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 350px;
+  right: 0px;
+  z-index: 1;
+}
+
+
+.absolute-3{
+  background-color: rgb(253, 255, 105);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 300px;
+  right: 0px;
+  z-index: 2;
+}
+
+.relative {
+  background-color: rgb(105, 255, 130);
+  width: 500px;
+  height: 600px;
+  position: relative;
+}
