@@ -1,0 +1,46 @@
+p {
+  color: #813fcd;
+  font-weight: bold;
+  width: 200px;
+}
+
+p:first-of-type {
+  color: rgb(42, 205, 211);
+}
+
+p:last-of-type {
+  color: rgb(238, 230, 158);
+}
+
+p:hover {
+  color: plum;
+  background-color: rgb(221, 248, 214);
+  cursor: pointer;
+}
+
+p::first-letter {
+  color: hotpink;
+  font-size: 50px;
+}
+
+p::before {
+  content: 'Ada- '
+}
+
+p::after {
+  content: ' -Ada'
+}
+
+ul li {
+  border-bottom: 3px solid pink;
+  width: 200px;
+}
+
+
+ul li:last-of-type{
+  border-bottom: none;
+}
+
+ul::first-line {
+  color: lightgreen;
+}
