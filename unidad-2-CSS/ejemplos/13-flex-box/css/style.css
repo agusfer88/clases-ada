@@ -1,0 +1,66 @@
+body {
+  margin: 0px;
+}
+
+.main {
+  width: 100%;
+  height: 300px;
+  background-color: pink;
+  display: flex;
+}
+
+.main .cluster {
+  height: 290px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 33%;
+}
+
+.main .cluster:first-of-type{
+  margin-left: 20px;
+}
+
+.main .cluster:last-of-type{
+  margin-right: 20px;
+}
+
+.uno {
+  background-color: hotpink;
+}
+
+.dos {
+  background-color: rgb(245, 71, 158);
+}
+
+.tres {
+  background-color: rgb(250, 24, 137);
+}
+
+.main-2 {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(192, 250, 255);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-2 .cluster-2 {
+  height: 100px;
+  width: 33%;
+}
+
+.cuatro {
+  background-color: rgb(105, 238, 255);
+}
+
+.cinco {
+  background-color: rgb(71, 219, 245);
+}
+
+.seis {
+  background-color: rgb(24, 197, 250);
+}
