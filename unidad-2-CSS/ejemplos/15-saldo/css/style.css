@@ -1,0 +1,69 @@
+body {
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+main {
+  width: 20%;
+  margin: auto;
+  background-color: #f1f1f1;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+
+section {
+  width: 90%;
+  margin: auto;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+main .title {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px 0px 0px 20px;
+}
+
+.disponible, .liberar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cuenta, .disponible, .liberar {
+  border: 1px solid #e2e2e2;
+  height: 80px;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.cuenta {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cuenta, .disponible-title, .liberar-title{
+  display: flex;
+  flex-direction: column;
+}
+
+.cuenta span:first-of-type, .disponible-title span:first-of-type, .liberar-title span:first-of-type{
+color: #cecece;
+}
+
+.cuenta span:last-of-type, .disponible-title span:last-of-type, .liberar-title span:last-of-type{
+  font-size: 30px;
+}
+
+input {
+  border: none;
+  font-size: 13px;
+}
+
+.icon-container {
+  width: 50px;
+  text-align: center;
+}
